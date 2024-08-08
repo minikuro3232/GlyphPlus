@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GlyphPlus</string>
+    <string name="enable_glyph_plus">GlyphPlus:</string>
+    <string name="battery_capacity">Reflection of remaining battery level while charging:</string>
+    <string name="playback_time">Reflecting the playback time:</string>
+    <string name="timer">Reflecting the timer:</string>
+    <string name="permissions_accessibility_request">Please allow accessibility</string>
+    <string name="permissions_accessibility_true">Accessibility allowed</string>
+    <string name="permissions_accessibility_false">This feature requires accessibility permission</string>
+    <string name="permissions_notification_access_request">Please allow notification access</string>
+    <string name="permissions_notification_access_true">Notification access allowed</string>
+    <string name="permissions_notification_access_false">This feature requires notification access permission</string>
+</resources>

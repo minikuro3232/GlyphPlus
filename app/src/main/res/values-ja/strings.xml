@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GlyphPlus</string>
+    <string name="enable_glyph_plus">GlyphPlus:</string>
+    <string name="battery_capacity">充電中のバッテリー残量の反映:</string>
+    <string name="playback_time">再生時間を反映:</string>
+    <string name="timer">タイマーを反映:</string>
+    <string name="permissions_accessibility_request">アクセシビリティを許可してください</string>
+    <string name="permissions_accessibility_true">アクセシビリティが許可されました</string>
+    <string name="permissions_accessibility_false">この機能はアクセシビリティ権限が必要です</string>
+    <string name="permissions_notification_access_request">通知へのアクセスを許可してください</string>
+    <string name="permissions_notification_access_true">通知アクセスが許可されました</string>
+    <string name="permissions_notification_access_false">この機能には通知アクセス権限が必要です</string>
+</resources>

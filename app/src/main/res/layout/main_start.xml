@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GlyphPlus"
+    android:background="@color/main_back">
+
+    <LinearLayout
+        android:id="@+id/gliyh_plus_enable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/enable_glyph_plus"
+            android:textSize="30dp"/>
+
+        <Switch
+            android:id="@+id/gliyh_plus_enable_toggle_switch"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:checked="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gliyh_plus_enable"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/battery_capacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/battery_capacity"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <Switch
+                android:id="@+id/battery_capacity_toggle_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:checked="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/playback_time"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/battery_capacity"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/playback_time"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <Switch
+                android:id="@+id/playback_time_toggle_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:checked="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@id/playback_time"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/timer"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+            <Switch
+                android:id="@+id/timer_toggle_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:checked="false" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
